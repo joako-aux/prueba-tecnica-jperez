@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PedidosApp (WinForms)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/PedidosApp/bin/Debug/net8.0-windows/PedidosApp.dll",
+      "cwd": "${workspaceFolder}/PedidosApp",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}
