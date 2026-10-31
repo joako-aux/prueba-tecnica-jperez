@@ -18,7 +18,7 @@ public static class AppLog
         }
         catch (Exception ex)
         {
-            // El log nunca debe tumbar la aplicación.
+            
             Debug.WriteLine("No se pudo escribir en Log: " + ex.Message);
         }
     }

@@ -1,5 +1,5 @@
 -- Script de creación de tablas · schema prueba_jperez
--- Charset utf8 / collation utf8_bin (comparaciones sensibles a mayúsculas)
+
 
 CREATE TABLE IF NOT EXISTS producto (
   id          INT AUTO_INCREMENT PRIMARY KEY,

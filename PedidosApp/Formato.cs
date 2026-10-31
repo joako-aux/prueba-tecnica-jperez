@@ -22,7 +22,7 @@ public static class Formato
         catch { return false; }
     }
 
-    /// <summary>Valida un RUT chileno (módulo 11) y lo normaliza a "12345678-5" en mayúsculas.</summary>
+    
     public static bool TryNormalizarRut(string input, out string rut)
     {
         Debug.WriteLine("[FPIA Formato.TryNormalizarRut");
